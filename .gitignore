@@ -1,0 +1,38 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+backend/**/__pycache__/
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+*.db
+data/*.sqlite3
+data/*.db
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
